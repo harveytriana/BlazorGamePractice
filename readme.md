@@ -10,7 +10,7 @@ Saludos,
 Origen en JavaScript:
 [¿Cómo he creado el videojuego Pong en Javascript en una tarde?](https://youtu.be/gRkYtMpd0AY)
 
-### Image
+### Imagen
 ![Emulador](https://github.com/harveytriana/BlazorGamePractice/blob/master/Screens/1.png)
 
 ## Requisitos

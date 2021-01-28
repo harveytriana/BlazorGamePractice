@@ -109,9 +109,6 @@ namespace BlazorPong
                 }
             }
             if (Bar2.KeyPressed) {
-                Console.WriteLine($"Bar2.Top: {Bar2.Top}");
-                Console.WriteLine($"Bar2.Top-x: {Bar2.Top - BarMovement}");
-
                 if (Bar2.KeyCode == "KeyO" && Bar2.Top > 0) {
                     Bar2.Top -= BarMovement;
                 }
