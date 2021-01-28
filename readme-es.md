@@ -1,7 +1,7 @@
 # Una práctica en Blazor WebAssembly
 Hace un tiempo vi un video de Héctor de León en YouTube, sobre el cómo hacer un esquema de juego Pong, en JavaScript puro, y en muy poco tiempo. Hoy lo vi de nuevo, y me pregunté, cómo sería esto con Blazor, sin una sola línea de JavaScript. Pues bien, el resultado es este.
 
-Reutilice parte de la lógica y programe otras cosas, todo al estilo Blazor. Demuestra la potente capacidad reactiva de Blazor, y lo elegante del código. Fue un ejercicio interesante.
+Reutilicé parte de la lógica y programé otras cosas, todo al estilo Blazor. Demuestra la potente capacidad reactiva de Blazor, y lo elegante del código. Fue un ejercicio interesante.
 
 Se trata más de una práctica más que de un producto, en donde se podría evolucionar bastante; si desean crear ramas, bienvenidos.
 
