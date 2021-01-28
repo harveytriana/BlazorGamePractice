@@ -1,0 +1,8 @@
+﻿<div class="ball" style="@_style"></div>
+
+@code {
+    // reactive position
+    string _style => $"left:{Model.X - Game.BALLRATIO}px;top:{Model.Y - Game.BALLRATIO}px;width:{Game.BALLDIAMETER}px;height:{Game.BALLDIAMETER}px;";
+
+    [Parameter] public BallModel Model { get; set; }
+}

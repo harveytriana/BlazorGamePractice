@@ -1,0 +1,64 @@
+﻿
+html, body {
+    margin: 30px;
+    color: rgb(128,129,130);
+    background-color: rgb(40,42,44);
+    font-family: Courier New, Courier, monospace
+}
+
+.game-container {
+    position: absolute;
+    border: solid 1px rgb(90,90,90);
+}
+
+.ball {
+    background-color: rgb(255,127,39);
+    position: absolute;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.bar {
+    position: absolute;
+    background-color: rgb(215,187,57);
+}
+
+.line {
+    border-right: dashed rgb(80,60,70) 5px;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+*:focus {
+    outline: none;
+}
+
+.prompt{
+    font-size:14px;
+    font-family:Courier New, Courier, monospace; 
+}
+
+h1{
+    font-family:'Segoe UI';
+}
+
+/* blazor default */
+#blazor-error-ui {
+    background: lightyellow;
+    bottom: 0;
+    box-shadow: 0 -1px 2px rgba(0, 0, 0, 0.2);
+    display: none;
+    left: 0;
+    padding: 0.6rem 1.25rem 0.7rem 1.25rem;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+    #blazor-error-ui .dismiss {
+        cursor: pointer;
+        position: absolute;
+        right: 0.75rem;
+        top: 0.5rem;
+    }

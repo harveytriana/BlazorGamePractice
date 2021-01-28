@@ -1,0 +1,67 @@
+﻿<div>
+    <h1>Hello, Pong!</h1>
+<pre>Simply Blazor demostration.</pre>
+<pre>@_prompt</pre>
+</div>
+
+<div class="game-container"
+     @onclick="_game.StartGame"
+     @onkeydown="HandleKeyDown"
+     @onkeyup="HandleKeyUp"
+     style="@_style"
+     tabindex="0">
+
+    <Ball Model="_game.Ball" />
+    <Bar Model="_game.Bar1" />
+    <Bar Model="_game.Bar2" />
+
+    <div class="line" style="@_lineStyle"></div>
+</div>
+
+@code {
+    // Style
+    string _style = $"width:{Game.WIDTH}px;height:{Game.HEIGHT}px;";
+    string _lineStyle = $"left:{Game.WIDTH / 2 - 1}px;";
+
+    // main object
+    Game _game { get; set; }
+
+    string _prompt;
+
+    protected override void OnInitialized()
+    {
+        _game = new Game();
+        // reactive behavior
+        _game.Loop += (o, e) => StateHasChanged();
+        // prompt
+        _game.Prompt += (s) => _prompt = s;
+        // start prompt
+        _prompt = "Click or SpaceBar (on focus): Start | Q-A: Player1, O-L: Player2";
+    }
+
+    void HandleKeyDown(KeyboardEventArgs e)
+    {
+        if (e.Key == " ") {
+            _game.StartGame();
+            return;
+        }
+        if (e.Code == "KeyQ" || e.Code == "KeyA") {
+            _game.Bar1.KeyCode = e.Code;
+            _game.Bar1.KeyPressed = true;
+        }
+        if (e.Code == "KeyO" || e.Code == "KeyL") {
+            _game.Bar2.KeyCode = e.Code;
+            _game.Bar2.KeyPressed = true;
+        }
+    }
+
+    void HandleKeyUp(KeyboardEventArgs e)
+    {
+        if (e.Code == "KeyQ" || e.Code == "KeyA") {
+            _game.Bar1.KeyPressed = false;
+        }
+        if (e.Code == "KeyO" || e.Code == "KeyL") {
+            _game.Bar2.KeyPressed = false;
+        }
+    }
+}

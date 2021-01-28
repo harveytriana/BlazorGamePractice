@@ -1,0 +1,8 @@
+﻿<div class="bar" style="@_style"></div>
+
+@code {
+    // reactive position
+    string _style => $"left:{Model.Left}px;top:{Model.Top}px;width:{Game.BARWIDTH}px;height:{Game.BARHEIGHT}px;";
+
+    [Parameter] public BarModel Model { get; set; }
+}
