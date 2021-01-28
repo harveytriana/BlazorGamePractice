@@ -11,7 +11,7 @@ Origen en JavaScript:
 [¿Cómo he creado el videojuego Pong en Javascript en una tarde?](https://youtu.be/gRkYtMpd0AY)
 
 ### Image
-![Emulador](https://github.com/harveytriana/BlazorPong/Screens/1.png)
+![Emulador](https://github.com/harveytriana/BlazorGamePractice/blob/master/Screens/1.png)
 
 ## Requisitos
 
