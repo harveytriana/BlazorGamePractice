@@ -65,6 +65,7 @@ namespace BlazorPong
                 OnGame = true;
                 Reset();
                 Play();
+                Prompt.Invoke("READY | KEYS Q-A: Player1, KEYS O-L: Player2");
             }
         }
 
@@ -94,7 +95,8 @@ namespace BlazorPong
                 // Console.WriteLine("Point Player 2");
             }
             if (!OnGame) {
-                Prompt.Invoke($"Gamme Over! Score: {Bar1.PlayerName}: {Bar1.Points} | {Bar2.PlayerName}: {Bar2.Points}");
+                Prompt.Invoke($"Gamme Over! Score: {Bar1.PlayerName}: {Bar1.Points} | {Bar2.PlayerName}: {Bar2.Points}" +
+                    " ...Press Space Bar to start a new game.");
             }
         }
 
