@@ -1,26 +1,15 @@
 # A Practice in Blazor WebAssembly
-Some time ago I saw a video by Héctor de León on YouTube, about how to make a Pong game scheme, in pure JavaScript, and in a very short time. I saw it again today, and wondered, what would this be like with Blazor, without a single line of JavaScript. Well, the result is this.
 
-I reuse some logic and programmed other things, all Blazor style. It shows the powerful reactive ability of Blazor, and the elegance of the code. It was an interesting exercise.
+You find many sources to do this exercise with pure JavaScript, some supported on `canvas`, others with only CSS. An example [»»] (https://www.geeksforgeeks.org/pong-game-in-javascript/)
 
-It is more of a practice rather than a product, where it could evolve a lot; if you want to create branches, you're welcome.
+![Screen](https://github.com/harveytriana/BlazorGamePractice/blob/master/Screens/1.png)
 
-Regards 
-
-Origin in JavaScript (Spanish):
-[¿Cómo he creado el videojuego Pong en Javascript en una tarde?](https://youtu.be/gRkYtMpd0AY)
-
-### Mock Image
-![Mock](https://github.com/harveytriana/BlazorGamePractice/blob/master/Screens/1.png)
+Doing it in Blazor is an interesting exercise, the goal here is not a product. I used some of the JavaScript logic, common in sources, and programmed other things for C#. It demonstrates the powerful reactive ability of Blazor, without a line of JavaScript. Try to formalize the code into good practice; It could be done in a single component, but it is not elegant. Didactically it is a good suggestion to see what an architecture would look like for a game written in Blazor.
 
 ## Requirements
 
   - Visual Studio 2019 16.8.x con NET 5.0
  
-___
-Twitter ```@__harveyt__```
-
-License
 ----
 
-MIT
+License MIT
