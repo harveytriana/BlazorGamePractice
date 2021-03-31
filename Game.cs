@@ -13,10 +13,10 @@ namespace BlazorPong
         public const int
             BALLRATIO = 10,
             BALLDIAMETER = 2 * BALLRATIO,
-            WIDTH = 700,
-            HEIGHT = 500,
-            BARHEIGHT = 100,
-            BARWIDTH = 20,
+            WIDTH = 600,
+            HEIGHT = 400,
+            BARHEIGHT = 80,
+            BARWIDTH = 16,
             YMAX = HEIGHT - BALLDIAMETER,
             YMIN = BALLDIAMETER;
 
