@@ -8,7 +8,7 @@ Doing it in Blazor is an interesting exercise, the goal here is not a product. I
 
 ## Requirements
 
-  - Visual Studio 2019 16.8.x con NET 5.0
+  - Visual Studio 2019 16.8.x with NET 5.0
  
 ----
 
