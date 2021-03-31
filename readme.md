@@ -1,4 +1,4 @@
-# A Practice in Blazor WebAssembly
+# Profile a Game with Blazor WebAssembly
 
 You find many sources to do this exercise with pure JavaScript, some supported on `canvas`, others with only CSS. An example [»»] (https://www.geeksforgeeks.org/pong-game-in-javascript/)
 
