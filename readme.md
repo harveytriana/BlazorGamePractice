@@ -15,3 +15,5 @@ Doing it in Blazor is an interesting exercise, the goal here is not a product. I
 ----
 
 License MIT
+
+My Blog: ![Blazor Spread](https://www.blazorspread.net)
