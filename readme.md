@@ -10,7 +10,7 @@ Doing it in Blazor is an interesting exercise, the goal here is not a product. I
 
 ## Requirements
 
-  - Visual Studio 2019 16.8.x | vscode | with NET 5.0
+  - Minimal: Visual Studio 2019 16.8.x | vscode | with NET 5.0
  
 ----
 
